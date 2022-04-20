@@ -1,0 +1,42 @@
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+
+.list-card {
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.list-title {
+  margin: 0px;
+  padding: 0px;
+}
+.subheading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.type {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.publisher {
+  font-weight: 300;
+}
+
+a {
+  color: #0077c2;
+  font-weight: 500;
+}
+
+a:hover {
+  cursor: pointer;
+  color: blue;
+}
